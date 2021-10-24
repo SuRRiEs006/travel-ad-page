@@ -11,19 +11,39 @@
 		<title>Visit London!</title>
         
 		<style>
-            .flexContainer {
+
+            .topFlexContainer {
+                padding: 6px;
                 margin-top: 0.5%;
                 margin-left:0.5%;
                 margin-right:0.5%;
+                margin-bottom: 0%;
                 display: flex;
-                height: 500px;
+                background-color: #ffffff;
+            }
+            
+            .flexContainer {
+                margin-top: 0%;
+                margin-left:0.5%;
+                margin-right:0.5%;
+                margin-bottom: 0%;
+                display: flex;
+                background-color: #ffffff;
+            }
+            
+            .bottomFlexContainer {
+                margin-top: 0%;
+                margin-left:0.5%;
+                margin-right:0.5%;
+                margin-bottom: 0.5%;
+                display: flex;
                 background-color: #ffffff;
             }
             
             .containerCell{
               width: 50%;
               display: flex;
-              background-color: #f1f1f1;
+              background-color: #ffffff;
               margin: 10px;
               padding: 20px;
               font-size: 30px;
@@ -62,13 +82,20 @@
 
 		<img src="img/visitLondonBanner.jpg" class="indexPageBanner" alt="Responsive image">
         
+        <div class="topFlexContainer" style="height: 60px; background-color:orange" >
+        <h1><b><u> Newest activities in London:</u></b></h1>
+        </div>
                 
-        <div class="flexContainer">
+        <div class="flexContainer" style="margin-bottom: 0%; height: 500px; background-color:purple">
             <div class="containerCell">1</div>
             <div class="containerCell">2</div>
         </div>
         
-        <div class="flexContainer" style="100px"></div>
+        <div class="flexContainer" style="height: 60px; background-color:orange" >
+        <h1><b><u> Visitor Gallery:</u></b></h1>
+        </div>
+        
+        <div class="bottomFlexContainer" style="height: 500px; background-color:green"></div>
         
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 	</body>
