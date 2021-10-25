@@ -21,9 +21,53 @@
   vertical-align: middle;
     }
 
+.topFlexContainer {
+    padding: 6px;
+    margin-top: 0.65%;
+    margin-left:0.5%;
+    margin-right:0.5%;
+    margin-bottom: 0%;
+    display: flex;
+    background-color: #ffffff;
+}
+
+.flexContainer {
+    padding: 6px;
+    margin-top: 0%;
+    margin-left:0.5%;
+    margin-right:0.5%;
+    margin-bottom: 0%;
+    display: flex;
+    background-color: #ffffff;
+}
+
+.bottomFlexContainer {
+    padding: 6px;
+    margin-top: 0%;
+    margin-left:0.5%;
+    margin-right:0.5%;
+    margin-bottom: 0.65%;
+    display: flex;
+    background-color: #ffffff;
+}
+
+.containerCell{
+  width: 50%;
+  display: flex;
+  background-color: #ffffff;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+
+}
+
+.giveBorder{
+    padding:0.5%;
+    background-color:e0001b;
+}
+
 body{
     background-color: #e0001b;
-
 }
 
 #headspacer {
