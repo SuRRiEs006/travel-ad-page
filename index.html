@@ -11,7 +11,13 @@
 		<title>Visit London!</title>
         
 		<style>
-
+            
+            .navSpace {
+                margin-left:8%;
+                font-size:170%;
+                font-weight: bold;
+                color:black;
+            }
 		</style>
         
 	</head>
@@ -19,30 +25,24 @@
         
         <div class="giveBorder">
 		<nav class="navbar navbar-light bg-light">
-			<div class="container-fluid">
+			<div class="container-fluid" style="justify-content: start;">
                 
 				<a href="index.html" class="navImagePadding">
 				<img src="img/visitLondonLogo.jpg" alt="" style="width:100%">
 				</a>
-                
-					<ul class="nav justify-content-center">
-						<li class="nav-item">
-							<a class="nav-link active" href="historyPage.html">Active</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Link</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Link</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link disabled" href="#">Disabled</a>
-						</li>
-					</ul>
 
+            <a class="nav-link active navSpace" aria-current="page" href="#" >Home</a>
+            <a class="nav-link navSpace" href="#">Features</a>
+            <a class="nav-link navSpace" href="#">Pricing</a>
+            <a class="nav-link navSpace" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    </div>
+
+
+               
 			</div>
 		</nav>
 </div>
+        
 <div class="giveBorder" style="padding-top:0px; padding-bottom:0px">
     <img src="img/visitLondonBanner.jpg" class="indexPageBanner" alt="River Thames at night"></div>
         <div class="topFlexContainer" style="height: 60px; background-color:orange" >
@@ -58,7 +58,12 @@
         <h1><b><u> Visitor Gallery:</u></b></h1>
         </div>
         
-        <div class="bottomFlexContainer" style="height: 500px; background-color:green"></div>
+        <div class="bottomFlexContainer" style="height: 500px; background-color:green">
+    
+            <img src="img/visitLondonBanner.jpg" class="img-thumbnail rounded float-start" alt="...">
+            <img src="img/visitLondonBanner.jpg" class="img-thumbnail rounded float-end" alt="...">
+    
+        </div>
         
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 	</body>
