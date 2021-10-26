@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
 .canvas {
     width: 100%;
     height: 1000px;
@@ -59,9 +61,33 @@
 
 }
 
+.navSpace {
+  margin-left:8%;
+  font-size:170%;
+  font-weight: old;
+  color:black;
+}
+
+.navFont{
+  font-size:30px;
+  color: red
+
+}
+
+.cardAlign{
+  display:block;
+  margin: 20px;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+.row{
+    margin-top:30px
+}
 
 body{
     background-color: #fff9f9;
+    font-family: 'Lato', sans-serif;
 }
 
 #headspacer {
