@@ -1,70 +1,184 @@
 <!DOCTYPE html>
+
 <html lang="en-GB">
-	<head>
-        <meta charset="utf-8">
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-		<link rel="stylesheet" href="scr/basic.css">
-        
-		<meta name="keywords" content="travel, london, holiday">
-		<meta name="location" content="London">
-        
-		<title>Visit London!</title>
-        
-		<style>
-            
-            .navSpace {
-                margin-left:8%;
-                font-size:170%;
-                font-weight: bold;
-                color:black;
-            }
-		</style>
-        
-	</head>
-	<body>
-        
-        <div class="giveBorder">
-		<nav class="navbar navbar-light bg-light">
-			<div class="container-fluid" style="justify-content: start;">
-                
-				<a href="index.html" class="navImagePadding">
-				<img src="img/visitLondonLogo.jpg" alt="" style="width:100%">
-				</a>
+<head>
+	<meta charset="UTF-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="scr/style.css" rel="stylesheet">
+	<meta content="travel, london, holiday" name="keywords">
+	<meta content="London" name="location">
 
-            <a class="nav-link active navSpace" aria-current="page" href="#" >Home</a>
-            <a class="nav-link navSpace" href="#">Features</a>
-            <a class="nav-link navSpace" href="#">Pricing</a>
-            <a class="nav-link navSpace" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-    </div>
+	<title>Visit London!</title>
+	<style>
+	              .navSpace {
+	                  margin-left:8%;
+	                  font-size:170%;
+	                  font-weight: old;
+	                  color:black;
+	              }
+	              
+	              .navFont{
+	                  font-size:20px;
+	                  
+	              }
+	              
+	              .cardAlign{
+	                  display:block;
+	                  margin: 20px;
+	                  margin-left:auto;
+	                  margin-right:auto;
+
+	              }
+        .row{
+            margin-top:30px
+        }
+	</style>
+</head>
+
+<body>
+    <div class="container">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navImagePadding" href="index.html"><img alt="" src="img/visitLondonLogo.jpg" style="width:100%"></a> <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ms-auto navFont">
+					<li class="nav-item">
+						<a class="nav-link active" href="#">Home</a>
+					</li>
 
 
-               
+					<li class="nav-item">
+						<a class="nav-link" href="#">Features</a>
+					</li>
+
+
+					<li class="nav-item">
+						<a class="nav-link" href="#">Pricing</a>
+					</li>
+
+
+					<li class="nav-item">
+						<a aria-disabled="true" class="nav-link disabled" href="#" tabindex="-1">Disabled</a>
+					</li>
+				</ul>
 			</div>
-		</nav>
-</div>
+
+	</nav>
+
+
+	
+		<img alt="River Thames at night" class="indexPageBanner" src="img/visitLondonBanner.jpg">
+
+		<div class="row"><h1 style="text-align:center">Adventures to be had!</h1></div>
+
+
+		<div class="row">
+			<div class="col-lg">
+				<div class="card cardAlign" style="width: 18rem;">
+					<img alt="..." class="card-img-top" src="img/visitLondonBanner.jpg">
+
+					<div class="card-body">
+						<h5 class="card-title">Card title</h5>
+
+
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a class="btn btn-primary" href="#">Go somewhere</a>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-lg">
+				<div class="card cardAlign" style="width: 18rem;">
+					<img alt="..." class="card-img-top" src="img/visitLondonBanner.jpg">
+
+					<div class="card-body">
+						<h5 class="card-title">Card title</h5>
+
+
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a class="btn btn-primary" href="#">Go somewhere</a>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-lg">
+				<div class="card cardAlign" style="width: 18rem;">
+					<img alt="..." class="card-img-top" src="img/adventuresLondonOne.jpg">
+
+					<div class="card-body">
+						<h5 class="card-title">Big Bus London Hop-On Hop-Off Tour and River Cruise</h5>
+
+
+						<p class="card-text">Create your own personalized sightseeing itinerary with a Big Bus hop-on hop-off sightseeing pass, the perfect choice for independent travelers. No matter how long you have in London, a 1-, 2-, or 3-day pass allows you to explore at your own pace.</p>
+						<a class="btn btn-primary" href="https://www.tripadvisor.co.uk/AttractionProductReview-g186338-d11454092-Big_Bus_London_Hop_On_Hop_Off_Tour_and_River_Cruise_with_Optional_London_Eye-Londo.html">Hop on!</a>
+					</div>
+				</div>
+			</div>
+		</div>
         
-<div class="giveBorder" style="padding-top:0px; padding-bottom:0px">
-    <img src="img/visitLondonBanner.jpg" class="indexPageBanner" alt="River Thames at night"></div>
-        <div class="topFlexContainer" style="height: 60px; background-color:orange" >
-        <h1><b><u> Newest activities in London:</u></b></h1>
+        
+        <div class="row"><h1>Visitor's Gallery</h1></div>
+        
+        <div class="row">
+            
+            <div class="col-lg">
+            <img src="img/galleryOne.jpg" alt="..." class="img-thumbnail">
+            </div>
+            
+            <div class="col-lg">
+            <img src="img/galleryOne.jpg" alt="..." class="img-thumbnail">
+            </div>
+            
+            <div class="col-lg">
+            <img src="img/galleryOne.jpg" alt="..." class="img-thumbnail">
+            </div>
+            
+            <div class="col-lg">
+            <img src="img/galleryOne.jpg" alt="..." class="img-thumbnail">
+            </div>
+            
+            <div class="col-lg">
+            <img src="img/galleryOne.jpg" alt="..." class="img-thumbnail">
+            </div>
+        
+        
         </div>
-                
-        <div class="flexContainer" style="margin-bottom: 0%; height: 500px; background-color:purple">
-            <div class="containerCell">1</div>
-            <div class="containerCell">2</div>
+                <div class="row">
+            
+            <div class="col-lg">
+            <img src="img/galleryOne.jpg" alt="..." class="img-thumbnail">
+            </div>
+            
+            <div class="col-lg">
+            <img src="img/galleryOne.jpg" alt="..." class="img-thumbnail">
+            </div>
+            
+            <div class="col-lg">
+            <img src="img/galleryOne.jpg" alt="..." class="img-thumbnail">
+            </div>
+            
+            <div class="col-lg">
+            <img src="img/galleryOne.jpg" alt="..." class="img-thumbnail">
+            </div>
+            
+            <div class="col-lg">
+            <img src="img/galleryOne.jpg" alt="..." class="img-thumbnail">
+            </div>
+        
+        
         </div>
         
-        <div class="flexContainer" style="height: 60px; background-color:orange" >
-        <h1><b><u> Visitor Gallery:</u></b></h1>
-        </div>
         
-        <div class="bottomFlexContainer" style="height: 500px; background-color:green">
-    
-            <img src="img/visitLondonBanner.jpg" class="img-thumbnail rounded float-start" alt="...">
-            <img src="img/visitLondonBanner.jpg" class="img-thumbnail rounded float-end" alt="...">
-    
-        </div>
         
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-	</body>
+        
+        
+        
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js">
+	</script>
+</body>
 </html>
