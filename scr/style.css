@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 
+
+.navbarColor{ 
+    background-color: #f2f3ff;
+}
+
 .canvas {
     width: 100%;
     height: 1000px;
@@ -14,6 +19,7 @@
      width: 15%;
 
 }
+
 .indexPageBanner {
   object-fit: cover;
   width: 100%;
@@ -69,7 +75,7 @@
 }
 
 .navFont{
-  font-size:30px;
+  font-size:20px;
   color: red
 
 }
@@ -86,7 +92,7 @@
 }
 
 body{
-    background-color: #fff9f9;
+    background-color: #f2f3ff;
     font-family: 'Lato', sans-serif;
 }
 
