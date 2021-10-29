@@ -1,0 +1,17 @@
+1c928a4	SURYA SATHANAPALLI	Thu Oct 28 16:33:49 2021	added all the travel images to new folder to maintian good file structure
+745768a	SURYA SATHANAPALLI	Thu Oct 28 15:46:57 2021	after the map and history page have been completed, visit and footer still need completing
+9dd2e4c	SURYA SATHANAPALLI	Wed Oct 27 20:28:43 2021	all pages now complete with responsive design now all that is needed is content to be added with references
+0134a9b	SURYA SATHANAPALLI	Tue Oct 26 14:11:57 2021	the index page is gone for now all the parts are responsive and acceptabel for submisssion so not planning on chnaging anything except design in future
+8966a12	SURYA SATHANAPALLI	Tue Oct 26 11:09:05 2021	added a responsive toolbar
+5aeab72	SURYA SATHANAPALLI	Tue Oct 26 10:14:14 2021	Bad network and random glitches on Codio saving to ensure progress is kept
+113f64a	SURYA SATHANAPALLI	Mon Oct 25 03:52:38 2021	main page withouth gallery examples
+6dbce05	SURYA SATHANAPALLI	Mon Oct 25 02:43:03 2021	before adding a more aesthetic navigation bar
+22f806f	SURYA SATHANAPALLI	Sun Oct 24 23:28:02 2021	improved UI on index page
+d3dac59	SURYA SATHANAPALLI	Sun Oct 24 22:59:45 2021	main page with full responsive features
+fd366ee	SURYA SATHANAPALLI	Sun Oct 24 21:43:25 2021	responsive nav bar complete
+4128874	SURYA SATHANAPALLI	Sun Oct 24 20:55:42 2021	stable index page before responsive
+a28f5bd	SURYA SATHANAPALLI	Sun Oct 24 01:04:49 2021	revised bootstrap banner
+3896e8e	SURYA SATHANAPALLI	Wed Oct 20 11:16:05 2021	new text area added
+fb44bc4	SURYA SATHANAPALLI	Wed Oct 20 08:21:27 2021	scaling banner
+f2d3615	SURYA SATHANAPALLI	Wed Oct 20 06:46:49 2021	stable image commit
+fe1988f	SURYA SATHANAPALLI	Wed Oct 20 00:27:50 2021	Initial Commit

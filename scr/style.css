@@ -73,6 +73,26 @@
   font-size: 30px;
 
 }
+a:link {
+  color: #e0001b;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #e0001b;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #e0001b;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: #e0001b;
+  background-color: transparent;
+  text-decoration: underline;
+}
 
 .navSpace {
   margin-left:8%;
