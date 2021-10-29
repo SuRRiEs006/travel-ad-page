@@ -1,159 +1,155 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 
-
 .navbarColor{ 
-    background-color: #f2f3ff;
+background-color: #f2f3ff;
 }
 
 .canvas {
-    width: 100%;
-    height: 1000px;
-    padding: 0px;
-    background-color: white;
-
+width: 100%;
+height: 1000px;
+padding: 0px;
+background-color: white;
 }
+
 .referencesText{
-    margin-top:10px;
-    font-color:#ffffff;
+margin-top:10px;
+font-color:#ffffff;
 }
 
 .navImagePadding{
-     .d-inline-block align-text-top;
-     margin: 0px;
-     width: 15%;
-
+.d-inline-block align-text-top;
+margin: 0px;
+width: 15%;
 }
 
 .footerStyle{
-    color:white;
-    height:100px;
-    background-color:gray;
-    margin-top:80px;
-    
+color:white;
+height:100px;
+background-color:gray;
+margin-top:80px;
 }
+
 .card-text{
-            margin-top: 10px;
-            font-size:14px;
-            
-        }
+margin-top: 10px;
+font-size:14px;
+}
+
 .nav-item{
-         margin-left:30px;
-         }
+margin-left:30px;
+}
+
 .indexPageBanner {
-  object-fit: cover;
-  width: 100%;
-  height: 700px;
-  vertical-align: middle;
-    }
+object-fit: cover;
+width: 100%;
+height: 700px;
+vertical-align: middle;
+}
 
 .topFlexContainer {
-    padding: 6px;
-    margin-top: 0.65%;
-    margin-left:0.5%;
-    margin-right:0.5%;
-    margin-bottom: 0%;
-    display: flex;
-    background-color: #ffffff;
+padding: 6px;
+margin-top: 0.65%;
+margin-left:0.5%;
+margin-right:0.5%;
+margin-bottom: 0%;
+display: flex;
+background-color: #ffffff;
 }
 
 .flexContainer {
-    padding: 6px;
-    margin-top: 0%;
-    margin-left:0.5%;
-    margin-right:0.5%;
-    margin-bottom: 0%;
-    display: flex;
-    background-color: #ffffff;
+padding: 6px;
+margin-top: 0%;
+margin-left:0.5%;
+margin-right:0.5%;
+margin-bottom: 0%;
+display: flex;
+background-color: #ffffff;
 }
 
 .bottomFlexContainer {
-    padding: 6px;
-    margin-top: 0%;
-    margin-left:0.5%;
-    margin-right:0.5%;
-    margin-bottom: 0.65%;
-    display: flex;
-    background-color: #ffffff;
+padding: 6px;
+margin-top: 0%;
+margin-left:0.5%;
+margin-right:0.5%;
+margin-bottom: 0.65%;
+display: flex;
+background-color: #ffffff;
 }
 
 .containerCell{
-  width: 50%;
-  display: flex;
-  background-color: #ffffff;
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
-
+width: 50%;
+display: flex;
+background-color: #ffffff;
+margin: 10px;
+padding: 20px;
+font-size: 30px;
 }
+
 a:link {
-  color: #e0001b;
-  background-color: transparent;
-  text-decoration: none;
+color: #e0001b;
+background-color: transparent;
+text-decoration: none;
 }
 a:visited {
-  color: #e0001b;
-  background-color: transparent;
-  text-decoration: none;
+color: #e0001b;
+background-color: transparent;
+text-decoration: none;
 }
 a:hover {
-  color: #e0001b;
-  background-color: transparent;
-  text-decoration: underline;
+color: #e0001b;
+background-color: transparent;
+text-decoration: underline;
 }
 a:active {
-  color: #e0001b;
-  background-color: transparent;
-  text-decoration: underline;
+color: #e0001b;
+background-color: transparent;
+text-decoration: underline;
 }
 
 .navSpace {
-  margin-left:8%;
-  font-size:170%;
-  font-weight: old;
-  color:black;
+margin-left:8%;
+font-size:170%;
+font-weight: old;
+color:black;
 }
 
 .navFont{
-  font-size:20px;
-  color: red
-
+font-size:20px;
+color: red
 }
 
 .cardAlign{
-  display:block;
-  margin: 20px;
-  margin-left:auto;
-  margin-right:auto;
-
+display:block;
+margin: 20px;
+margin-left:auto;
+margin-right:auto;
 }
+
 .row{
-    margin-top:30px
+margin-top:30px
 }
 
 body{
-    background-color: #f2f3ff;
-    font-family: 'Lato', sans-serif;
+background-color: #f2f3ff;
+font-family: 'Lato', sans-serif;
 }
 
 #headspacer {
-    width: 100%;
-    height: 30px;
-    padding: 10px;
-    background-color: white;
-
+width: 100%;
+height: 30px;
+padding: 10px;
+background-color: white;
 }
 
 #banner {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    max-height: 100%;
-    vertical-align:middle;
-    padding: 10px
-        }
-
-#imageFill{
-    height: 160px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+max-width: 100%;
+max-height: 100%;
+vertical-align:middle;
+padding: 10px
 }
 
+#imageFill{
+height: 160px;
+}
