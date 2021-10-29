@@ -6,7 +6,12 @@
   height: 250px;
   vertical-align: middle;
     }
-
+.accordianColor{
+     background-color:#e0001b
+;
+    color:white;
+    
+}
 .historyPageBanner {
   object-fit: cover;
   width: 100%;

@@ -1,3 +1,7 @@
+a273697	SURYA SATHANAPALLI	Fri Oct 29 02:37:24 2021	few more references added
+7ad2256	SURYA SATHANAPALLI	Fri Oct 29 02:11:13 2021	introduced the readme file for tomorrow but isn't completed just to make sure I don't forget tommorrow
+09bef7b	SURYA SATHANAPALLI	Fri Oct 29 01:58:10 2021	webpages all done just want to tweak a few things for aesthetics before submitting tomorrow but otherwise meets all requirements
+b503736	SURYA SATHANAPALLI	Fri Oct 29 01:18:03 2021	half way through adding all the references for texts and images, task 5 completes
 1c928a4	SURYA SATHANAPALLI	Thu Oct 28 16:33:49 2021	added all the travel images to new folder to maintian good file structure
 745768a	SURYA SATHANAPALLI	Thu Oct 28 15:46:57 2021	after the map and history page have been completed, visit and footer still need completing
 9dd2e4c	SURYA SATHANAPALLI	Wed Oct 27 20:28:43 2021	all pages now complete with responsive design now all that is needed is content to be added with references
