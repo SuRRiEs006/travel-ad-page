@@ -12,7 +12,7 @@
     background-color: white;
 
 }
-.referencesButton{
+.referencesText{
     margin-top:10px;
     font-color:#ffffff;
 }
@@ -22,6 +22,13 @@
      margin: 0px;
      width: 15%;
 
+}
+
+.footerStyle{
+    height:100px;
+    background-color:gray;
+    margin-top:80px;
+    
 }
 .card-text{
             margin-top: 10px;
