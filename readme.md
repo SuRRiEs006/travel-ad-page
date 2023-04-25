@@ -1,8 +1,10 @@
-StudentID: 52103553
-Name: Surya Sathanapalli 
+Name: Surya Sathanapalli, StudentID: 52103553
 
-Why did I design the webpage the way it is?
--------------------------------------------
+# Travel and tourism assignment
+
+
+# Why did I design the webpage the way it is?
+
 
 Color and general design
     The color scheme of the red was chosen using the color picker used on the Visit London Logo thats how I got the color value #e0001b
@@ -23,8 +25,7 @@ Navigation and Layout
 
 
 
-What challenges did I faced?
-----------------------------
+# What challenges did I faced?
 
 There were no shortages of challenges as this was my first time making a website and using HTML and CSS properly. 
     - The webpage was loading slow after a certain point so I decided to compress my images down and this seemed to help a lot with speed.
@@ -34,8 +35,8 @@ There were no shortages of challenges as this was my first time making a website
     - Slightly building upon the last point I think understanding the differences between multiple attribute that at first glance do the same thing was quite difficult and was something I believe I only got to pick up through trial and error
 
 
-Conclusion
-----------
+# Conclusion
+
 
 I think I everything went excellent and I met all the required tasks and made a well designed webpage. When I first started this assignment I didn't have the ability to make a simple responsive page but now after learning bootstrap and more css and being more familiar with them I'm quite comfortable
 
